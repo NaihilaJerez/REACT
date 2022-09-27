@@ -6,7 +6,6 @@ function Cards() {
         <section>
             <div class="cardsp">
                 <div class="cardsno">
-                    {/* <img src="./img/JUAN.jpg" alt=""> */}
                     <div class="nombre">
                         <h2>Juan Diaz</h2>
                         <i class="fa-solid fa-star icon"></i>

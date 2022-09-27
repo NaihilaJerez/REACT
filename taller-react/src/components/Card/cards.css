@@ -1,7 +1,7 @@
 .cardsp{
     width: 25%;
     padding: 20px;
-    background-image: url(../img/cardss.svg);
+    /* background-image: url(../img/cardss.svg); */
     background-size: cover;
     border-radius: 3px;
     position: relative;
