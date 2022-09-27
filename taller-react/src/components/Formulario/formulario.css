@@ -1,0 +1,56 @@
+.loginx {
+    background-image: url('../img/login.jpg');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.login-box {
+    width: 20%;
+    background-color: var(--azuloscuro);
+    background: rgba(0, 0, 0, .3);
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 10%;
+    margin-left: 40%;
+
+
+}
+
+.login-box .logo {
+    width: 50%;
+    align-self: flex-start;
+}
+
+.login-box .avatar {
+    width: 20%;
+    margin-left: 40%;
+}
+
+.login-box label {
+    color: var(--blanco);
+}
+
+.login-box input {
+    width: 100%;
+    height: 20px;
+}
+
+.login-box button {
+    background-color: var(--negro2);
+    font-size: 20px;
+    height: 30px;
+    color: var(--blanco);
+    width: 102%;
+}
+
+p {
+    color: var(--blanco);
+}
+
+p a {
+    text-decoration: none;
+    color: var(--negro2);
+}

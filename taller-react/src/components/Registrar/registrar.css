@@ -1,0 +1,54 @@
+.bodyregistrar {
+    background: url(../img/registrarfondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.priseccion {
+    background-color: var(--azuloscuro);
+    width: 30%;
+    height: 100vh;
+    text-align: center;
+}
+
+.priseccion .logo {
+    width: 60%;
+    margin-top: 55%;
+
+}
+
+.priseccion h2 {
+    color: var(--blanco);
+
+}
+
+.bodyregistrar .formulario {
+    background-color: var(--blanco);
+    width: 40%;
+    height: 90%;
+    margin-left: 13%;
+    margin-top: 2%;
+    padding: 3%;
+
+}
+
+.bodyregistrar .formulario .f {
+    display: flex;
+}
+
+.bodyregistrar .formulario .s1 {
+    float: left;
+}
+
+.bodyregistrar .formulario .s2 {
+    float: right;
+}
+
+.bodyregistrar .formulario input {
+    width: 60%;
+}
+
+.bodyregistrar .formulario .abajo {
+    float: inline-end;
+}

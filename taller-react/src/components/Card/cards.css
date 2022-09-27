@@ -1,0 +1,49 @@
+.cardsp{
+    width: 25%;
+    padding: 20px;
+    background-image: url(../img/cardss.svg);
+    background-size: cover;
+    border-radius: 3px;
+    position: relative;
+}
+.cardsp:hover img{
+    transform: rotate(0);
+}
+.cardsno img{
+    width: 24%;
+    color: var(--blanco);
+    margin-left: -75%;
+    border-radius: 50%;
+}
+.cardsdesc p{
+    color: var(--blanco);
+}
+.cardsno {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.nombre{
+    position: relative;
+    color: var(--blanco);
+    font-family: 'Playfair Display', serif;
+    top: -35%;
+    left: 30%;
+}
+@media screen and (max-width: 1000px){
+    .cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }  
+    .cardsp{
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 50%;
+        height: 50%;
+    }
+    .cardsno{
+        text-align: center;
+    }
+}

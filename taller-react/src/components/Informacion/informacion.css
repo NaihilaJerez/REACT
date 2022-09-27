@@ -1,0 +1,32 @@
+#informacion {
+    justify-content: space-around;
+    padding: 6em;
+    display: flex;
+}
+.textinf {
+    width: 36em;
+    align-self: center;
+    font-size: 1.7em;
+}
+.imageninfo img {
+    width: 14em;
+    margin-right: -4em;
+}
+@media screen and (max-width: 1000px){
+#informacion{
+    flex-direction: column;
+}   
+.textinf{
+    margin-left: 20px;
+    width: 80%;
+}
+.textinf p{
+    font-size:medium;
+    padding: 25%;
+    width: 50%;
+}
+.imageninfo{
+    text-align: center;
+    width: 30%;
+}
+}

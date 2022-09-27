@@ -1,0 +1,29 @@
+.contenedorr {
+    width: 100%;
+    position: relative;
+}
+.sliderT{
+    position: absolute;
+    color: var(--blanco);
+    top: 65%;
+    background-color:  var(--negro);
+    font-size: 20px;
+    padding : 2.1rem;
+    width: 80%;
+}
+@media screen and (max-width: 1000px){
+    .contenedorr {
+        width: 100%;
+    }
+    .sliderT{
+        height: 10%;
+        padding : 10%;
+        width: 80%;
+    }
+    .sliderT h1{
+        font-size: 20px;
+        padding-bottom: 5%;
+        width: 100%;
+        text-align: center;
+    }
+}
